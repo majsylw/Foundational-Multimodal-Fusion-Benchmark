@@ -185,7 +185,7 @@ def process_labels(df, col='answer', mlb=None, train_columns=None):
     Example:
     one_hot_labels, mlb, train_columns = process_labels(df, col='answer')
     """
-    df.DR_3 = df.DR_3.astype(str)
+    #df.DR_3 = df.DR_3.astype(str)
     
     if mlb is None:
         mlb = MultiLabelBinarizer()
